@@ -23,6 +23,7 @@ This repository contains the code for the MAGI-1 model, pre-trained weights and 
 
 ## 🔥🔥🔥 Latest News
 
+- Jun 17, 2026: The weights of MAGI-1.1 24B before distillation, as well as after distillation and quantization, have finally been open-sourced!
 - May 30, 2025: Support for ComfyUI is added 🎉 — the custom nodes for MAGI-1 are now available. Try them out in your workflows!
 - May 26, 2025: MAGI-1 4.5B distill and distill+quant models has been released 🎉 — we’ve updated the model weights - check it out!
 - May 14, 2025: Added Dify DSL for prompt enhancement 🎉 — import it into Dify to boost prompt quality!
@@ -79,7 +80,8 @@ We provide the pre-trained weights for MAGI-1, including the 24B and 4.5B models
 | MAGI-1-4.5B                    | [MAGI-1-4.5B](https://huggingface.co/sand-ai/MAGI-1/tree/main/ckpt/magi/4.5B_base) | RTX 4090 × 1                    |
 | MAGI-1-4.5B-distill             | [MAGI-1-4.5B-distill](https://huggingface.co/sand-ai/MAGI-1/tree/main/ckpt/magi/4.5B_distill) | RTX 4090 × 1                    |
 | MAGI-1-4.5B-distill+fp8_quant   | [MAGI-1-4.5B-distill+quant](https://huggingface.co/sand-ai/MAGI-1/tree/main/ckpt/magi/4.5B_distill_quant) | RTX 4090 × 1                    |
-
+| MAGI-1.1-24B     | [MAGI-1.1-24B](https://huggingface.co/sand-ai/MAGI-1/tree/main/ckpt/magi1.1/24B_base) | H100/H800 × 8 |
+| MAGI-1.1-24B-distill+fp8_quant    | [MAGI-1.1-24B-distill+fp8_quant](https://huggingface.co/sand-ai/MAGI-1/tree/main/ckpt/magi1.1/24B_distill_quant) | H100/H800 × 4 or RTX 4090 × 8 |
 > [!NOTE]
 >
 > For 4.5B models, any machine with at least 24GB of GPU memory is sufficient.
